@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mee — Mother of all mee products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" fill="none">
+                    <text x="12" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#FFFFFF">m</text>
+                    <text x="72" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                    <text x="112" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                    <circle cx="95" cy="20" r="3.5" fill="#2563EB"/>
+                    <circle cx="135" cy="20" r="3.5" fill="#2563EB"/>
+                </svg>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">What is mee?</a></li>
+                    <li><a href="#meeian" class="nav__link">Be a meeian</a></li>
+                    <li><a href="#features" class="nav__link">Features</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav__link">Products <i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="dropdown__menu">
+                            <li><a href="#" class="dropdown__item">UpDown</a></li>
+                            <li><a href="#" class="dropdown__item">Seipe</a></li>
+                            <li><a href="#" class="dropdown__item">Switch</a></li>
+                            <li><a href="#" class="dropdown__item">meeMusic</a></li>
+                            <li><a href="#" class="dropdown__item">PlugIn</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav__link">Divisions <i class="ri-arrow-down-s-line"></i></a>
+                        <ul class="dropdown__menu">
+                            <li><a href="#" class="dropdown__item">mee Records</a></li>
+                            <li><a href="#" class="dropdown__item">meeMail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__content container">
+                <div class="hero__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" fill="none">
+                        <text x="12" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#0F172A">m</text>
+                        <text x="72" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                        <text x="112" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                        <circle cx="95" cy="20" r="3.5" fill="#2563EB"/>
+                        <circle cx="135" cy="20" r="3.5" fill="#2563EB"/>
+                    </svg>
+                </div>
+                <p class="hero__tagline">The ecosystem that connects everything you love.</p>
+                <a href="#meeian" class="btn">Be a meeian</a>
+            </div>
+        </section>
+
+        <section class="about section reveal" id="about">
+            <div class="container">
+                <h2 class="section-title">What is mee?</h2>
+                <p class="about__text">
+                    mee is a unified digital ecosystem built around a single, personal @mee.com address — your key to every mee service. Under one roof, it brings together music, communication, and content: <strong>mee Records</strong> nurtures independent artists, while <strong>meeMusic</strong> delivers audio and video streaming. <strong>Seipe</strong> connects you through high-quality video calls, <strong>Switch</strong> reimagines social networking, <strong>UpDown</strong> offers smart messaging, and <strong>PlugIn</strong> provides a browser designed for the meeian lifestyle. Every product is linked to your mee identity, making the experience seamless and personal. Founded by <strong>Abdullah Al Mustafa</strong>, mee stands for creative freedom, digital ownership, and an ecosystem that revolves around you.
+                </p>
+            </div>
+        </section>
+
+        <section class="meeian section reveal" id="meeian">
+            <div class="container">
+                <h2 class="section-title">Be a meeian</h2>
+                <p class="section-text">Claim your unique @mee.com address and unlock the entire ecosystem.</p>
+                <a href="https://meemail.example.com/register" target="_blank" rel="noopener" class="btn btn-large">Register on meeMail</a>
+                <p class="note">You'll need a valid email (Gmail, Yahoo, etc.) to verify and create your mee address.</p>
+            </div>
+        </section>
+
+        <section class="features section reveal" id="features">
+            <div class="container">
+                <h2 class="section-title">Why mee?</h2>
+                <div class="features__grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="ri-fingerprint-line"></i></div>
+                        <h3>One Identity</h3>
+                        <p>Your @mee.com address works across all mee products.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="ri-music-2-line"></i></div>
+                        <h3>Music & Records</h3>
+                        <p>Stream music and support artists via mee Records.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="ri-chat-3-line"></i></div>
+                        <h3>Seamless Communication</h3>
+                        <p>Video calls with Seipe, chat with UpDown.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="ri-compass-3-line"></i></div>
+                        <h3>Your Browser</h3>
+                        <p>PlugIn – a browser built for the meeian lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products section reveal" id="products">
+            <div class="container">
+                <h2 class="section-title">Products</h2>
+                <div class="products__grid">
+                    <div class="product-card"><h3>UpDown</h3><p>Smart messaging app</p></div>
+                    <div class="product-card"><h3>Seipe</h3><p>Premium video calling</p></div>
+                    <div class="product-card"><h3>Switch</h3><p>Social networking reimagined</p></div>
+                    <div class="product-card"><h3>meeMusic</h3><p>Audio & video streaming</p></div>
+                    <div class="product-card"><h3>PlugIn</h3><p>A browser for meeians</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="divisions section reveal" id="divisions">
+            <div class="container">
+                <h2 class="section-title">Divisions</h2>
+                <div class="divisions__list">
+                    <div class="division-card"><h3>mee Records</h3><p>Record label for independent artists</p></div>
+                    <div class="division-card"><h3>meeMail</h3><p>The official communication hub of mee</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section reveal" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__options">
+                    <div class="contact-option">
+                        <div class="contact-option__header">
+                            <span>For any report: <strong>report.mee@proton.me</strong></span>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <div class="contact-option__body">
+                            <form class="contact-form" onsubmit="event.preventDefault(); alert('Report submitted (demo)');">
+                                <input type="text" placeholder="Your name" required>
+                                <input type="email" placeholder="Your email" required>
+                                <textarea rows="4" placeholder="Describe the issue..." required></textarea>
+                                <button type="submit">Send Report</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact-option">
+                        <div class="contact-option__header">
+                            <span>For advertisement: <strong>ads.mee@proton.me</strong></span>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <div class="contact-option__body">
+                            <form class="contact-form" onsubmit="event.preventDefault(); alert('Advertisement inquiry sent (demo)');">
+                                <input type="text" placeholder="Your name / Company" required>
+                                <input type="email" placeholder="Your email" required>
+                                <textarea rows="4" placeholder="Tell us about your advertising needs..." required></textarea>
+                                <button type="submit">Send Inquiry</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                <span>2026-Present</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" fill="none">
+                    <text x="12" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#FFFFFF">m</text>
+                    <text x="72" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                    <text x="112" y="64" style="font-family:var(--logo-font);font-size:64px;font-weight:800;letter-spacing:-3px;" fill="#2563EB">e</text>
+                    <circle cx="95" cy="20" r="3.5" fill="#2563EB"/>
+                    <circle cx="135" cy="20" r="3.5" fill="#2563EB"/>
+                </svg>
+                <span>All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
